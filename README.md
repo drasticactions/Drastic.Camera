@@ -8,3 +8,9 @@ Libraries Used:
 - Drastic.Tray
 - Drastic.TrayWindow
 - Drastic.PureLayout
+
+This app will create a tray icon, ask for permission to use your webcam, and then, when allowed, show your webcam inside of an `NSPopover`
+
+## Known Issues:
+
+The application may crash while the debugger is attached (such as when using VSMac) after requesting the webcam. You can work around this by running the app from CLI.
